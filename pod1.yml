@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myweb2-pod
+  labels:
+    env: testing
+    dc: "AUS"
+spec:
+  containers:
+  - name: myweb-con
+    image: httpd
